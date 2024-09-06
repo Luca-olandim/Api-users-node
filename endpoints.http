@@ -1,0 +1,21 @@
+GET http://localhost:3333
+
+###
+
+
+POST http://localhost:3333/users
+Content-Type: application/json
+
+
+ {
+    "name": "Luca",
+    "senha": "123",
+    "perfil": "ADM"
+    
+ }
+
+###
+
+DELETE http://localhost:3333/artigos/id
+
+
